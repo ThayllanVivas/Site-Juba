@@ -1,0 +1,79 @@
+nav ul li .text-secondary:hover {
+  color: #fff !important;
+  background-color: #000 !important;
+}
+section.mike {
+  margin-top: 119px;
+}
+.inscreva {
+  position: fixed;
+  top: 125px;
+  left: 10px;
+}
+  .inscreva a {
+    color: #fff !important;
+    background-color: #000; 
+    padding: 10px;
+  }
+.redes_sociais {
+	position: fixed;
+	top: 190px;
+	left: 14px;
+}
+  .redes_sociais a {
+    display: block;
+    color: #000 !important;
+    background-color: #fff;
+  }
+footer {
+  background-color: aqua;
+  padding: 35px;
+  width: 100%;
+}
+  footer span {
+    font-weight: 700;
+  }
+.section_click_button { /* Aplicar essa clase caso cliquem no botão hambúrguer */
+  margin-top: 417px !important;
+  transition: .4s ease;
+}
+.redes_sociais_click_button { /* Aplicar essa clase caso cliquem no botão hambúrguer */
+  position: fixed;
+  top: 417px !important;
+  left: 10px !important;
+  transition: .4s ease;
+}
+
+
+
+/* SMARTPHONE */
+@media only screen and (max-width: 567px){
+  .navbar-brand span, .inscreva.position_left {
+    display: none;
+  }
+  .inscreva {
+    display: none;
+  }
+  .redes_sociais {
+    position: fixed;
+    top: 120px;
+    left: 15px;
+  }
+    .redes-sociais_span {
+      display: none;
+    }  
+}
+
+/* TABLET */
+@media only screen and (min-width: 568px) and (max-width: 767px){
+  .inscreva {
+    position: fixed;
+    top: 120px;
+    left: 0px;
+  }
+  .redes_sociais {
+    position: fixed;
+    top: 180px;
+    left: 10px;
+  }
+}
